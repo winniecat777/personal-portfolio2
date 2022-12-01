@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*重置*/
+body{margin:0;background-color: #f5f5f5;}
+img{display:block;}
+h1,h2,h3,h4,h5,h6,p{margin:0;}
+a{text-decoration:none;color:black;}
+.clearfix{clear:both;}
+
+/*頁頭*/
+.header{height: 860px;background-image:url(../img/banner.png);
+background-repeat:no-repeat;background-size:cover;background-position: center;}
+
+.box{max-width: 1180px;margin: 0 auto;padding-left: 100px;}
+.horizontal-line{width: 20px;height: 4px;background-color: white;margin-top: 60px;margin-bottom: 15px;}
+
+.box h1{color: white;font-size: 40px;text-transform: uppercase;line-height: 50px;margin-bottom: 35px;}
+
+.btn{margin-top: 80px;}
+.btn a{display: block;width: 110px;height: 30px;border-radius: 15px;box-sizing:border-box;
+border: 2px solid white;line-height: 30px;text-align: center;text-transform: uppercase;float: left;}
+
+.btn a:nth-of-type(1){background-color: white;color: #000;margin-right:40px;}
+.btn a:nth-of-type(2){color: #fff;}
+
+/*簡約產品*/
+.simple{max-width: 1180px;margin: 0 auto;margin-top: 40px;}
+
+.s_product{float: left;width:calc((100% - 40px) / 3);position: relative;}
+.s_product:nth-child(2){margin: 0 20px;}
+.s_product img{width: 100%;}
+
+.s_product p:nth-of-type(1){font-size: 28px;color:#666;text-transform: uppercase;margin-bottom: 10px;}
+.s_product p:nth-of-type(2){font-size: 26px;color:#000;text-transform: uppercase;margin-bottom: 20px;}
+.s_product p:nth-of-type(3){font-size: 18px;color:#fbc942;text-transform: uppercase;margin-bottom: 20px;}
+.s_product p:nth-of-type(4){font-size: 18px;color:#000;}
+
+.s_product div{position: absolute;left:52%;top:70px;}
+
+/*時尚新品*/
+.fashion{max-width: 1180px;margin: 0 auto;}
+
+.f_tittle h2{font-size: 48px;color: #000;font-weight: normal;margin-bottom: 20px;text-align: center;}
+.f_tittle h3{font-size: 16px;color: #000;font-weight: normal;text-transform: uppercase;
+text-align: center;}
+.f_tittle{width: 264px;border-left: #cfa735 2px solid;border-right: #cfa735 2px solid;
+margin: 60px auto;}
+
+.f_product{float: left;width:calc((100% - 60px) / 4);margin-right: 20px;height: 453px;}
+.f_product:nth-child(4){margin-right: 0;}
+
+.f_product:nth-child(1){
+background: url("../img/np1.png");
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;}
+
+.f_product:nth-child(2){
+background: url("../img/np2.png") no-repeat center;
+background-size: cover;}
+
+.f_product:nth-child(3){
+background: url("../img/np3.png") no-repeat center;
+background-size: cover;}
+
+.f_product:nth-child(4){
+background: url("../img/np4.png") no-repeat center;
+background-size: cover;}
+
+.f_product p{text-align: center;}
+
+.f_product p:nth-of-type(1){font-size: 26px;color: #696969;margin-top: 50px;margin-bottom: 20px;}
+.f_product p:nth-of-type(2){font-size: 20px;color: #696969;margin-bottom: 275px;}
+.f_product p:nth-of-type(3){font-size: 18px;color: #ffc000;}
+
+.f_product{position: relative;transition: 0.5s;}
+.f_product img{position: absolute;left:0;top:0;transition: 0.3;opacity: 0;}
+
+.f_product:hover{box-shadow: 0 0 15px 7px rgba(0,0,0,0.1);}
+.f_product:hover img{opacity: 1;}
+
+/*你的選擇*/
+.choose{height: 520px;background: url("../img/banner2.png") no-repeat center;background-size: cover;
+margin-top: 60px;padding-top: 145px;}
+
+.choose p:nth-of-type(1){color: white;font-size: 48px;text-transform: uppercase;text-align: center;
+margin-bottom: 30px;}
+.choose p:nth-of-type(2){color: white;font-size: 36px;text-align: center;}
+
+.choose .btn{width: 260px;margin: 0 auto;margin-top: 100px;}
+
+/*熱賣產品*/
+.hot .f_product:nth-child(1){
+background: url("../img/hp1.png") no-repeat center;
+background-size: cover;}
+
+.hot .f_product:nth-child(2){
+background: url("../img/hp2.png") no-repeat center;
+background-size: cover;}
+
+.hot .f_product:nth-child(3){
+background: url("../img/hp3.png") no-repeat center;
+background-size: cover;}
+
+.hot .f_product:nth-child(4){
+background: url("../img/hp4.png") no-repeat center;
+background-size: cover;}
+
+/*店內頭條*/
+.headlines{background-image: url("../img/banner3.png");background-repeat: no-repeat;
+background-position: center top;background-size: auto 520px;margin-top: 60px;padding-bottom: 60px;}
+
+.t-tittle h2{font-size: 48px;color: white;text-align: center;text-transform: uppercase;
+padding-top: 145px;}
+.t-tittle h3{font-size: 36px;color: white;text-align: center;margin-top: 30px;margin-bottom: 115px;}
+
+.news{width: 780px;height: 280px;margin: 0 auto;background-color: #e3e4e6;
+background-repeat: no-repeat;background-position: left top;margin-top: 40px;}
+
+.news:nth-of-type(2){background-image: url("../img/news1.png");}
+.news:nth-of-type(3){background-image: url("../img/news2.png");}
+.news:nth-of-type(4){background-image: url("../img/news3.png");}
+
+.content{width: 480px;height: 240px;background-color: white;float: right;margin-top: 20px;
+padding-left: 100px;padding-right: 28px;box-sizing:border-box;}
+
+.content h4{font-size: 20px;padding-top: 40px;padding-bottom: 20px;}
+.content p:nth-of-type(1){text-align: justify;margin-bottom: 20px;}
+.content p span{font-size: 12px;color: #ff6e6e;}
+
+.content p:nth-of-type(2){float: right;font-size: 14px;color: #ccc;padding-left: 24px;
+background-image: url("../img/icon_2.png");background-position: left center;
+background-repeat: no-repeat;}
+.content p:nth-of-type(3){float: right;font-size: 14px;color: #ccc;margin-right: 40px;
+padding-left: 24px;background-image: url("../img/icon_1.png");background-position: left center;
+background-repeat: no-repeat;}
+
+/*頁腳*/
+.footer_bg{background-color: #000;color: #fff;}
+.footer{max-width: 1180px;margin: 0 auto;padding: 60px 100px 180px;box-sizing:border-box;}
+.footer img{margin: 0 auto;margin-bottom: 40px;}
+
+.list{float: left;width: calc((100% - 180px) / 4);margin-right: 60px;}
+
+.mr0{margin-right: 0;}
+
+.list h3{font-size: 18px;border-bottom: 1px solid white;margin-bottom: 20px;}
+
+.list p{font-size: 14px;text-align: justify;line-height: 22px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
